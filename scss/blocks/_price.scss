@@ -15,11 +15,24 @@
   text-align: center;
 }
 
+.price__title--page{
+  margin-bottom: 16px;
+}
+
 .price__text{
   margin: 0  0 50px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  color: #22343D;
+  text-align: center;
+}
+
+.price__show{
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
   color: #22343D;
   text-align: center;
 }
@@ -93,6 +106,7 @@
 }
 
 .info__month{
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;

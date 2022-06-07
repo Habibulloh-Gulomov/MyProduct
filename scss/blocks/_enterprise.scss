@@ -1,0 +1,52 @@
+.enterprise{
+  padding-top: 53px;
+  margin-bottom: 200px;
+  background-image: url(../../img/enterprisebg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 318px;
+  background-position: top;
+}
+
+.enterprise__inner{
+  text-align: center;
+}
+
+.enterprise__title{
+  margin: 0 0 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+}
+
+.enterprise__question{
+  margin: 0 0 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.enterprise__text{
+  margin: 0 0 43px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343D;
+}
+
+.enterprise__link{
+  padding: 11px 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #02897A;
+  border-radius: 8px;
+}
+
+.enterprise__link:hover{
+  background: #c28a8a;
+  color: #fff;
+}

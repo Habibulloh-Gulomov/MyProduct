@@ -1,0 +1,93 @@
+.work{
+  margin-bottom: 115px;
+}
+
+.work__inner{
+  text-align: center;
+}
+
+.work__title{
+  margin-bottom: 70px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.work__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.work__item{
+  margin: 0 auto;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+  max-width: 1025px;
+  align-items: center;
+  &::before{
+    display: block;
+    width:500px ;
+    height: 300px;
+    background-image: url(../../img/mac1.png);
+    background-size:500px 300px ;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.work__item--middle{
+  flex-direction: row-reverse;
+  &::before{
+    background-image: url(../../img/mac2.png);
+  }
+}
+
+.work__item--last{
+  &::before{
+    background-image: url(../../img/mac3.png);
+  }
+}
+
+.work__content{
+  width: 100%;
+  max-width: 442px;
+}
+
+.work__step{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343D;
+}
+
+.work__heading{
+  margin: 16px 0 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+}
+
+.work__text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.work__link{
+  padding: 11px 18px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 8px;
+}

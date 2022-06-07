@@ -1,11 +1,16 @@
-.hero{
-  padding: 120px 0 218px;
-  position: relative;
 
+.hero{
+  margin-bottom: 114px;
+}
+
+.hero__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   &::after{
     width:600px ;
     height: 555px;
-    position: absolute;
+    display: block;
     top: 0;
     right: calc(50% - 530px);
     background-image: url(../../img/heroimg.png);
@@ -15,7 +20,7 @@
   }
 }
 
-.hero__inner{
+.hero__content{
   width: 100%;
   max-width: 458px;
 }

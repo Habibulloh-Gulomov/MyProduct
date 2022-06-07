@@ -14,6 +14,16 @@
   max-width: 695px;
 }
 
+.header__burger{
+  border: none;
+  background: none;
+  // width: 20px;
+  // height: 17px;
+  font-size: 24px;
+  color: #fff;
+  display: none;
+}
+
 .header__list{
   display: flex;
   align-items: center;

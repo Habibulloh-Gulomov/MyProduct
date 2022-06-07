@@ -1,0 +1,86 @@
+.product{
+  margin-bottom: 150px;
+}
+
+// .product__inner{}
+
+.product__title{
+  margin: 0 0 56px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+  text-align: center;
+}
+
+.product__content{
+  display:flex;
+  justify-content: space-between;
+  &::before{
+    display: block;
+    width:528px ;
+    height: 392px;
+    background-image: url(../../img/amico.png);
+    background-repeat: no-repeat;
+    background-size:528px 392px ;
+    content: '';
+  }
+}
+
+.product__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.product__item{
+  width: 100%;
+  max-width: 515px;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+}
+
+.product__item__title{
+  position: relative;
+  margin: 0 0 23px;
+  padding-left: 64px;
+  padding-top: 6px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+  &::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:50px ;
+    height: 50px;
+    background-image: url(../../img/Feature1.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    content: '';
+  }
+}
+
+.product__item__title--two{
+  &::before{
+    background-image: url(../../img/Feature2.png);
+  }
+}
+
+.product__item__title--three{
+  &::before{
+    background-image: url(../../img/Feature3.png);
+  }
+}
+
+.product__item__text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #22343D;
+}

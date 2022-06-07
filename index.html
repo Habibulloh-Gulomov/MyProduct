@@ -17,13 +17,13 @@
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
-            <a href="#" class="header__item__link header__item__link--first">Product</a>
+            <a href="./index.html" class="header__item__link header__item__link--first">Product</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__item__link">Customers</a>
+            <a href="./costumer.html" class="header__item__link">Customers</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__item__link">Pricing</a>
+            <a href="./pricing.html" class="header__item__link">Pricing</a>
           </li>
           <li class="header__item">
             <a href="#" class="header__item__link">Resources</a>
@@ -42,6 +42,7 @@
 
         </ul>
       </nav>
+      <button class="header__burger">&#9776;</button>
     </div>
   </header>
 
@@ -49,11 +50,13 @@
   <section class="hero">
     <div class="containerown">
       <div class="hero__inner">
-        <h1 class="hero__title">Work at the speed
-          of thought</h1>
-        <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-        <a href="#" class="hero__link">Get started</a>
-        <a href="" class="hero__connect">Watch the Video</a>
+        <div class="hero__content">
+          <h1 class="hero__title">Work at the speed
+            of thought</h1>
+          <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+          <a href="#" class="hero__link">Get started</a>
+          <a href="" class="hero__connect">Watch the Video</a>
+      </div>
       </div>
     </div>
   </section>
@@ -159,9 +162,9 @@
     <div class="containerown carusel__inner">
       <h2 class="carusel__title">Contents Strategies</h2>
       <p class="carusel__text">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active d-flex justify-content-between">
+          <div class="carousel-item active d-flex justify-content-between ">
             <div class="card" style="width: 348px;">
               <img src="./img/card1.png" class="card-img-top" alt="phot">
               <div class="card-body">
@@ -170,7 +173,7 @@
               </div>
             </div>
             <div class="card" style="width: 348px;">
-              <img src="./img/card2.png" class="card-img-top" alt="...">
+              <img src="./img/card2.png" class="card-img-top" alt="photo">
               <div class="card-body">
                 <p class="carusel__owner">By <span class="carusel__date">Wahid Ari </span>|  03 March 2019</p>
                 <p class="carusel__info carusel__info--middle">Motivation Is The First Step To Success</p>
@@ -193,7 +196,7 @@
               </div>
             </div>
             <div class="card" style="width: 348px;">
-              <img src="./img/card2.png" class="card-img-top" alt="...">
+              <img src="./img/card2.png" class="card-img-top" alt="photo">
               <div class="card-body">
                 <p class="carusel__owner">By <span class="carusel__date">Wahid Ari </span>|  03 March 2019</p>
                 <p class="carusel__info carusel__info--middle">Motivation Is The First Step To Success</p>
@@ -216,7 +219,7 @@
               </div>
             </div>
             <div class="card" style="width: 348px;">
-              <img src="./img/card2.png" class="card-img-top" alt="...">
+              <img src="./img/card2.png" class="card-img-top" alt="photo">
               <div class="card-body">
                 <p class="carusel__owner">By <span class="carusel__date">Wahid Ari </span>|  03 March 2019</p>
                 <p class="carusel__info carusel__info--middle">Motivation Is The First Step To Success</p>
@@ -231,6 +234,14 @@
             </div>
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </section>
@@ -252,39 +263,89 @@
                 <span class="info__text">Only 2 Operators</span>
                 <span class="info__text">Notifications</span>
                 <span class="info__text">Landing Pages</span>
-                <a class="info__order">Order Now</a>
+                <a class="info__order " href="#">Order Now</a>
             </li>
             <li class="price__item price__info info">
-                <span class="info__title info__text--white">Free</span>
+                <span class="info__title info__text--white">Standard</span>
                 <span class="info__text info__text--white">Brief price description</span>
                 <span class="info__cost info__text--white">
-                  0 <span class="info__time info__text--white">
+                  5 <span class="info__time info__text--white">
                      <span class="info__money info__text--white">$</span>
                      <span class="info__month info__text--white">Per / month</span>
                   </span>
                 </span>
-                <span class="info__text info__text--white">Only 2 Operators</span>
+                <span class="info__text info__text--white">5+ Operators</span>
                 <span class="info__text info__text--white">Notifications</span>
                 <span class="info__text info__text--white">Landing Pages</span>
-                <a class="info__order info__order--middle">Order Now</a>
+                <a class="info__order info__order--middle" href="#">Order Now</a>
             </li>
             <li class="price__item price__info info">
-                <span class="info__title">Free</span>
+                <span class="info__title">Premium</span>
                 <span class="info__text">Brief price description</span>
                 <span class="info__cost">
-                  0 <span class="info__time">
+                  10 <span class="info__time">
                      <span class="info__money">$</span>
-                     <span class="info__month">Per / month</span>
+                     <span class="info__month">Per/month</span>
                   </span>
                 </span>
-                <span class="info__text">Only 2 Operators</span>
+                <span class="info__text">10+ Operators</span>
                 <span class="info__text">Notifications</span>
                 <span class="info__text">Landing Pages</span>
-                <a class="info__order">Order Now</a>
+                <a class="info__order" href="#">Order Now</a>
             </li>
           </ul>
     </div>
   </section>
+
+   <section class="client">
+     <div class="containerown client__inner">
+       <h2 class="client__title">What Clients Say</h2>
+       <p class="clinet__text">Problems trying to resolve the conflict between <br>
+        the two major realms of Classical physics: Newtonian mechanics </p>
+       <ul class="client__list">
+         <li class="client__item">
+           <img src="./img/star.png" alt="star of product it shows rating" class="client__star" width="106" height="18">
+           <p class="client__info">Product helps you see how many 
+            more days you need to work to 
+            reach your financial goal.</p>
+          <div class="client__mem">
+            <img src="./img/man1.png" width="50" height="50" alt="wahid ari" class="client__pic">
+            <span class="client__span">
+              <span class="client__name">Wahid Ari </span>
+              <span class="client__job">Designer</span>
+            </span>
+          </div>
+         </li>
+         <li class="client__item">
+          <img src="./img/star.png" alt="star of product it shows rating" class="client__star" width="106" height="18">
+          <p class="client__info">Product helps you see how many 
+           more days you need to work to 
+           reach your financial goal.</p>
+         <div class="client__mem">
+           <img src="./img/man2.png" width="50" height="50" alt="wahid ari" class="client__pic">
+           <span class="client__span">
+             <span class="client__name">Wahid Ari </span>
+             <span class="client__job">Designer</span>
+           </span>
+         </div>
+        </li>
+        <li class="client__item">
+          <img src="./img/star.png" alt="star of product it shows rating" class="client__star" width="106" height="18">
+          <p class="client__info">Product helps you see how many 
+           more days you need to work to 
+           reach your financial goal.</p>
+         <div class="client__mem">
+           <img src="./img/man3.png" width="50" height="50" alt="wahid ari" class="client__pic">
+           <span class="client__span">
+             <span class="client__name">Wahid Ari </span>
+             <span class="client__job">Designer</span>
+           </span>
+         </div>
+        </li>
+       </ul>
+     </div>
+   </section>
+
   <section class="bottom">
     <div class="containerown">
       <div class="bottom__inner">
@@ -297,7 +358,7 @@
     </div>
   </section>
 </main>
-<footer>
+<footer class="footer">
  <div class="containerown">
    <div class="container__inner">
      <ul class="footer__list">
@@ -318,18 +379,18 @@
          </div>
        </li>
        <li class="footer__item">
-         <a class="footer__title">Resource</a>
-         <a class="footer__text">About us</a>
-         <a class="footer__text">Blog</a>
-         <a class="footer__text">Contact</a>
-         <a class="footer__text">FAQ</a>
+         <span class="footer__title">Resource</span>
+         <a class="footer__text" href="#" >About us</a>
+         <a class="footer__text" href="#">Blog</a>
+         <a class="footer__text" href="#">Contact</a>
+         <a class="footer__text" href="#">FAQ</a>
        </li>
        <li class="footer__item">
-        <a class="footer__title">Legal Stuff</a>
-        <a class="footer__text">Disclaimer</a>
-        <a class="footer__text">Financing</a>
-        <a class="footer__text">Privacy Policy</a>
-        <a class="footer__text">Terms of Service</a>
+        <span class="footer__title">Legal Stuff</span>
+        <a class="footer__text" href="#">Disclaimer</a>
+        <a class="footer__text" href="#">Financing</a>
+        <a class="footer__text" href="#">Privacy Policy</a>
+        <a class="footer__text" href="#">Terms of Service</a>
       </li>
       <li class="footer__item">
         <form class="footer__form" action="https://echo.htmlacademy.ru/courses" method="post">

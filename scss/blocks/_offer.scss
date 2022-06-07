@@ -1,0 +1,76 @@
+.offer{
+  background-image: url(../../img/enterprisebg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  margin-bottom: 195px;
+}
+
+.offer__inner{
+  padding: 35px 0 0 ;
+  text-align: center;
+}
+
+.offer__title{
+  margin: 0 0 90px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343D;
+}
+
+.offer__list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.offer__item{
+  margin: 0;
+  padding: 0;
+  &::before{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../../img/redcircle.png);
+    background-repeat: no-repeat;
+    background-size:150px ;
+    content: '';
+  }
+}
+
+.offer__item--blue{
+  &::before{
+    background-image: url(../../img/bluecircle.png);
+  }
+}
+
+
+.offer__offer{
+  margin: 0 0 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.offer__info{
+  margin: 0 0 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #22343D;
+}
+
+.offer__product{
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}

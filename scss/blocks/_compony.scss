@@ -1,0 +1,41 @@
+.compony{
+  margin-bottom: 135px;
+}
+
+.compony__title{
+  margin: 0 0 65px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343D;
+}
+
+.compony__content{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 850px;
+}
+
+.compony__img{
+  width: 158px;
+  height: 50px;
+}
+
+.compony__link__second{
+  width: 146px;
+  height: 50px;
+}
+
+.compony__link__third{
+  width: 213px;
+  height: 44px;
+}
+
+.compony__link__last{
+  width: 140px;
+  height: 42px;
+}
