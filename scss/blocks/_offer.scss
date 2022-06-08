@@ -11,7 +11,9 @@
 }
 
 .offer__title{
-  margin: 0 0 90px;
+  width: 100%;
+  max-width: 537px;
+  margin: 0 auto 90px;
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
@@ -73,4 +75,18 @@
   font-size: 16px;
   line-height: 28px;
   color: #000000;
+}
+
+@media only screen and (max-width:576px){
+  .offer__list{
+    flex-direction: column;
+  }
+
+  .offer__title{
+    max-width: 351px;
+  }
+
+  .offer__item:nth-child(1){
+    margin-bottom: 66px;
+  }
 }

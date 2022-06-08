@@ -39,3 +39,19 @@
   width: 140px;
   height: 42px;
 }
+
+@media only screen and (max-width:576px){
+  .compony__content{
+    width: 100%;
+    max-width: 355px;
+  }
+
+  .compony__img , .compony__img__second{
+    margin-bottom: 60px;
+  }
+
+  .compony__img__third{
+     width: 164px;
+     height: 34px;
+  }
+}

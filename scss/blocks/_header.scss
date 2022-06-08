@@ -20,7 +20,6 @@
   // width: 20px;
   // height: 17px;
   font-size: 24px;
-  color: #fff;
   display: none;
 }
 
@@ -76,4 +75,20 @@
   border: none;
   background-color: none;
   border-radius: 50%;
+}
+
+
+@media only screen and (max-width:576px){
+  .header{
+    border-bottom: 1px solid #00000036;
+  }
+
+  .header__nav{
+    display: none;
+  }
+
+  .header__burger{
+    display: block;
+    margin-left: auto;
+  }
 }

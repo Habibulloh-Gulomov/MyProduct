@@ -75,3 +75,42 @@
   background-repeat: none;
   content: '';
 }
+
+
+@media only screen and (max-width:576px){
+  .hero__inner{
+    flex-direction: column-reverse;
+    &::after{
+      width: 338px;
+      height: 310px;
+      background-size: 338px 310px;
+    }
+  }
+
+  .hero__content{
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .hero__title{
+    margin: 10px 0 16px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    color: #22343D;
+  }
+
+  .hero__text{
+    margin: 0 0 30;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #22343D;
+  }
+
+  .hero__link{
+    padding: 15px 25px;
+  }
+}

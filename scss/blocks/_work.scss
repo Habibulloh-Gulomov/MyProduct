@@ -91,3 +91,25 @@
   background: #02897A;
   border-radius: 8px;
 }
+
+@media only screen and (max-width:576px){
+  .work__item{
+    flex-direction: column;
+  }
+
+  .work__content{
+    width: 100%;
+    max-width: 349px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .work__item{
+    &::before{
+      width:355px ;
+      height: 198px;
+      background-size:355px 198px ;
+      margin-bottom: 69px;
+    }
+  }
+}

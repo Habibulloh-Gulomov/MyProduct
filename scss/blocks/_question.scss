@@ -78,3 +78,11 @@
   color: #22343D;
   border-bottom: 1px solid #E7E7E7;
 }
+
+@media only screen and (max-width:576px){
+  .question__inner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+  }
+}

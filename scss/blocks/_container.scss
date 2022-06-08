@@ -4,3 +4,11 @@
   margin: 0 auto;
   padding:0 20px;
 }
+
+@media only screen and (max-width:576px){
+  .containerown{
+    width: 100%;
+    max-width: 576px;
+    padding: 0 15px;
+  }
+}

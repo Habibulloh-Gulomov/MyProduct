@@ -44,3 +44,42 @@
 .carusel__info--middle{
   color: #02897A;
 }
+
+.carousel__item {
+  display: flex !important;
+  justify-content: space-between !important; 
+}
+
+@media only screen and (max-width:576px){
+  .carusel{
+    margin-bottom: 100px;
+  }
+
+  .carusel__title{
+    text-align: center;
+  }
+
+  .carusel__text{
+    width: 100%;
+    margin: 0 auto 40px;
+    max-width: 350px;
+  }
+
+  .carusel__text{
+    text-align: center;
+  }
+
+  .carousel__item{
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .card{
+    border: none !important;
+    margin-bottom: 56px;
+  }
+
+  .card-body{
+    padding: 0 !important;
+  }
+}

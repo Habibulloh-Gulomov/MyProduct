@@ -144,3 +144,18 @@
   color: #02897A;
   background-color: #fff;
 }
+
+@media only screen and (max-width:576px){
+  .price{
+    margin-bottom: 100px;
+  }
+
+  .price__list{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price__item{
+    margin-bottom: 32px;
+  }
+}

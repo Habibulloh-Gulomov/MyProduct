@@ -84,3 +84,21 @@
   align-items: center;
   color: #22343D;
 }
+
+@media only screen and(max-width:576px){
+  .product__inner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .product__content{
+    flex-direction: column;
+    &::before{
+      width:352px ;
+      height:288p ;
+      background-image: url(../../img/Image.png);
+      background-size:352px 288px ;
+    }
+  }
+}

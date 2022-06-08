@@ -50,3 +50,12 @@
   background: #c28a8a;
   color: #fff;
 }
+
+@media only screen and (max-width:576px){
+  .enterprise__inner{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
