@@ -137,3 +137,16 @@
     max-width: 346px;
   }
 }
+
+@media only screen and (max-width:400px){
+  .great__inner{
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    &::after{
+      width: 300px ;
+      height: 200px;
+      background-size:300px 200px;
+  }
+}
+}
