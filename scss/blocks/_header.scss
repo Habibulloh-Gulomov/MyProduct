@@ -87,6 +87,7 @@
   .header__nav{
     display: none;
     &--open{
+      overflow: hidden;
       margin-top: 90px;
       display: block;
       position: absolute;

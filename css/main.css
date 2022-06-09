@@ -527,6 +527,7 @@ img {
     display: none;
   }
   .header__nav--open {
+    overflow: hidden;
     margin-top: 90px;
     display: block;
     position: absolute;
