@@ -2404,7 +2404,7 @@ img {
             justify-content: center;
   }
   .great__inner::after {
-    width: 355px;
+    width: 300px;
     height: 260px;
     background-size: 355px 260px;
     background-image: url(../../img/greatsmall.png);
