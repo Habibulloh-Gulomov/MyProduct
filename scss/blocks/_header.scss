@@ -84,6 +84,10 @@
     border-bottom: 1px solid #00000036;
   }
 
+  body{
+    overflow-y: hidden;
+  }
+
   .header__nav{
     display: none;
     &--open{
@@ -112,14 +116,14 @@
 }
 
 .header__item:nth-child(4){
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .header__item:nth-child(5){
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 .header__item:nth-child(6){
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .header__item__link{
