@@ -1,0 +1,108 @@
+.contact{
+  margin-bottom: 150px;
+}
+.contact__inner{
+  text-align: center;
+}
+
+.contact__title{
+  margin: 0 0 25px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.contact__text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+  margin: 0 0 65px;
+}
+
+.contact__app{
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.contact__site{
+  margin-right: 21px;
+  text-decoration: none;
+}
+
+.contact__iframe{
+  margin: 0 auto 60px;
+  max-width: 871px;
+  width: 100%;
+}
+
+.contact__form{
+  margin: 0 auto;
+  padding: 50px ;
+  width: 100%;
+  max-width: 868px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+}
+
+.contact__heading{
+  text-align: center;
+  margin: 0 0 45px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.contact__input{
+  margin-bottom: 45px ;
+  width: 100%;
+  padding: 19px 0 19px 20px;
+  max-width: 768px;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+}
+
+.contact__textarea{
+  margin-bottom: 45px;
+  padding-top: 23px;
+  padding-left: 20px;
+  resize: none;
+  width: 100%;
+  max-width: 768px;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+}
+
+.contact__button{
+  padding: 18px 54px;
+  background: #02897A;
+  border-radius: 35px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  border: none;
+}
+
+
+.contact__iframe{
+  width: 100%;
+  max-width: 362px;
+}
+
+.contact__form{
+  width: 100%;
+  max-width: 344px;
+  border: none;
+  padding: 0;
+}

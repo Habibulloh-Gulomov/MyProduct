@@ -1,0 +1,89 @@
+.wahid{
+  margin-bottom: 160px;
+}
+
+.wahid__title{
+  margin: 0 0 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+
+}
+
+.wahid__text{
+  margin: 0 0 33px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+.wahid__cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.card{
+  border: 1px solid #EAEAEA;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.card-body{
+  padding: 0  30px 40px 24px;
+}
+
+.wahid__button{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #22343D;
+  &::after{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/shower.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin-left: 8px;
+    content: '';
+  }
+}
+
+@media only screen and (max-width:576px){
+  .wahid__cards{
+    justify-content: center;
+  }
+
+  .wahid__inner{
+    width: 100%;
+    max-width: 351px;
+    margin: 0 auto;
+  }
+
+   .wahid__cards > .card {
+    border: 1px solid #EAEAEA !important;
+    background: #FFFFFF;
+    border-radius: 8px !important;
+    margin-bottom: 32px;
+  }
+  .card-body{
+    padding: 0  30px 40px 24px !important;
+  }
+
+  .contact__input{
+    margin:0 0  32px;
+  }
+}

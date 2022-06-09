@@ -1,0 +1,139 @@
+.great{
+  margin-bottom: 65px;
+}
+
+.great__inner{
+  display: flex;
+  justify-content: space-between;
+  &::after{
+    display: block;
+    width: 541px;
+    height: 482px;
+    background-image: url(../../img/greatbg.png);
+    background-repeat: no-repeat;
+    background-size:541px 482px ;
+    content: '';
+  }
+}
+
+.great__content{
+  width: 100%;
+  max-width: 535px;
+}
+
+.great__title{
+  width: 100%;
+  max-width: 380px;
+  margin: 0 0 24px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 149%;
+  letter-spacing: -0.03em;
+  color: #22343D;
+}
+
+.great__text{
+  margin: 0 0 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #22343D;
+}
+
+.great__form{
+  position: relative;
+  width: 100%;
+  max-width: 469px;
+  margin-bottom: 24px;
+}
+
+// .great__label{}
+
+.great__input{
+  width: 100%;
+  max-width: 469px;
+  padding: 25px 0 25px 27px;
+  border: 1px solid #EAEAEA;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #22343D;
+}
+
+.great__button{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0px;
+  color: #FFFFFF;
+  padding: 25px 19px 25px 25px;
+  background: #02897A;
+  border-radius: 100px;
+  position: absolute;
+  right: 8px;
+  top: 17%;
+  border: 0;
+}
+
+.great__other{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #22343D;
+  display: flex;
+  align-items: center;
+  &::before{
+    display: block;
+    width:121px ;
+    height: 50px;
+    background-image: url(../../img/threemen.png);
+    background-repeat: no-repeat;
+    background-size: 121px 50px;
+    content: '';
+  }
+}
+
+.great__num{
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #02897A;
+}
+
+@media only screen and (max-width:576px){
+  .great__inner{
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    &::after{
+      width:360px ;
+      height: 263px;
+      background-size:360px 263px;
+      background-image: url(../../img/greatsmall.png);
+      margin: 0 auto;
+    }
+  }
+
+  .great__content{
+    margin: 0 auto 85px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .great__title{
+    font-size: 36px;
+  }
+
+  .greaat__text{
+    line-height: 34px;
+  }
+
+  .great__form{
+    width: 100%;
+    max-width: 346px;
+  }
+}
