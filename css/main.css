@@ -524,9 +524,6 @@ img {
   .header {
     border-bottom: 1px solid #00000036;
   }
-  body {
-    overflow-y: hidden;
-  }
   .header__nav {
     display: none;
   }
